@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue的模板语法</title>
+    <!-- 引入Vue -->
+    <script type="text/javascript" src="../js/vue.js"></script>
+  </head>
+  <body>
+    <!-- 容器 -->
+    <div id="root">
+        <h2>今天天气很{{info}}</h2>
+        <!-- <button @click="changeWeather">切换天气</button> -->
+        <button @click="isHot = !isHot">切换天气</button>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    new Vue({
+        el: '#root',
+        data: {
+            isHot: true,
+        }, 
+        computed: {
+            info() {
+                return this.isHot ? '炎热' : '凉爽'
+            }
+        },
+        // methods: {
+        //     changeWeather() {
+        //         this.isHot = !this.isHot
+        //     }
+        // }
+    })
+  </script>
+</html>

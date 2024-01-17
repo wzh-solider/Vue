@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue的模板语法</title>
+    <!-- 引入Vue -->
+    <script type="text/javascript" src="../js/vue.js"></script>
+  </head>
+  <body>
+    <!-- 容器 -->
+    <div id="root">
+      <h2>欢迎来到{{name}}学习</h2>
+      <!-- <button v-on:click="showInfo">点我显示信息</button> -->
+      <button @click="showInfo1">点我显示信息1</button>
+      <button @click="showInfo2(2, $event)">点我显示信息2</button>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    const vm = new Vue({
+      el: "#root",
+      data: {
+        name: "尚硅谷",
+      },
+      methods: {
+        showInfo1(event) {
+            alert("同学你好1" + event);
+        },
+        showInfo2(number, e) {
+            alert("同学你好2" + number);
+            console.log(e);
+        }
+      },
+    });
+  </script>
+</html>

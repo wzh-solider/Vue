@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>列表排序</title>
+    <!-- 引入Vue -->
+    <script type="text/javascript" src="../js/vue.js"></script>
+  </head>
+  <body>
+    <!-- 容器 -->
+    <div id="root">
+      <h2>人员列表</h2>
+      <button @click="updateMei">更新马冬梅</button>
+      <ul>
+        <li v-for="p in persons">{{p.name}}-{{p.age}}-{{p.sex}}</li>
+      </ul>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    const vm = new Vue({
+      el: "#root",
+      data: {
+        persons: [
+          { id: "001", name: "马冬梅", age: 18, sex: "女" },
+          { id: "002", name: "周冬雨", age: 21, sex: "女" },
+          { id: "003", name: "周杰伦", age: 19, sex: "男" },
+          { id: "004", name: "温兆伦", age: 12, sex: "男" },
+        ],
+      },
+      methods: {
+        updateMei() {
+          // this.persons[0].name = "马老师"; // 奏效
+          // this.persons[0].age = 1000; // 奏效
+          // this.persons[0].sex = "男"; // 奏效
+          // this.persons[0] = {id: "001", name: "马老师", age: 1000, sex: "男"} // 不奏效
+          /**
+           * Vue按照getter,setter方法实现响应式效果，
+           * 但在数组中，并没有对其中的元素进行设置getter,setter方法，
+           * 只有将数组重新进行赋值，才能实现响应式（必须影响原数组）
+           * 同时，Vue中也提供了一些方法，更改数组
+           * 1. push()
+           * 2. pop()
+           * 3. shift()
+           * 4. unshift()
+           * 5. splice()
+           * 6. sort()
+           * 7. reverse()
+           * Vue重写了这些方法，使其能够实现响应式
+           * 所以，在Vue管理的数组中，使用这些方法，使用的均是Vue重写的，而不是原生的
+           */
+          this.persons.splice(0, 1, {id: "001", name: "马老师", age: 1000, sex: "男"});
+        }
+      }
+    });
+  </script>
+</html>

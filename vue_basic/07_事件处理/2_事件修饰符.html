@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue的模板语法</title>
+    <!-- 引入Vue -->
+    <script type="text/javascript" src="../js/vue.js"></script>
+  </head>
+
+  <style>
+    .demo1 {
+        width: 100%;
+        height: 100px;
+        background-color: pink;
+        padding-top: 20px;
+    }
+  </style>
+
+  <body>
+    <!-- 容器 -->
+    <div id="root">
+        <h2>欢迎来到{{name}}学习</h2>
+        <!-- 阻止默认事件 -->
+        <a href="http://www.atguigu.com" @click.prevent="showInfo">点我提示信息1</a>
+
+        <!-- 组织冒泡事件 -->
+        <div class="demo1" @click="showInfo">
+            <button @click.stop="showInfo">点我提示信息</button>
+        </div>
+
+        <!-- 事件只触发一次 -->
+        <button @click.once="showInfo($event, _data.count)">点{{count}}下</button>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    new Vue({
+        el: '#root',
+        data: {
+            name: '尚硅谷',
+            count: 0
+        },
+        methods: {
+            showInfo(e, count) {
+                // e.preventDefault();
+                alert('同学你好' + ++this._data.count);
+            },
+        }
+    })
+  </script>
+</html>

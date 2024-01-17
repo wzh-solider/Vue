@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MVVM模型</title>
+    <!-- 引入Vue -->
+    <script type="text/javascript" src="../js/vue.js"></script>
+  </head>
+
+  <body>
+    <div id="root">
+      <!-- view(v) -->
+      <h1>名字：{{name}}</h1>
+      <h1>地址：{{address}}</h1>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    // ViewModel(vm)
+    const vm = new Vue({
+      el: "#root",
+      // model(m)
+      data: {
+        name: "张三",
+        address: "北京",
+      },
+    });
+    console.log(vm);
+  </script>
+</html>

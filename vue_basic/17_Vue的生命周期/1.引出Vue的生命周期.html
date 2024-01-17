@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue的生命周期</title>
+    <!-- 引入Vue -->
+    <script type="text/javascript" src="../js/vue.js"></script>
+  </head>
+  <body>
+    <!-- 容器 -->
+    <div id="root">
+      <h2 :style="{opacity}">欢迎欢迎</h2>
+    </div>
+  </body>
+  <script type="text/javascript">
+    const vm = new Vue({
+      el: "#root",
+      data: {
+        opacity: 1
+      },
+      methods: {
+
+      },
+      // Vue完成模板的解析，并把真实的DOM元素放到页面后（挂载完毕），会执行该函数
+      mounted() {
+        console.log("mounted");
+        setInterval(() => {
+          this.opacity -= 0.01;
+          if (this.opacity <= 0) {
+            this.opacity = 1;
+          }
+        }, 16);
+      }
+    });
+
+    // 通过外部实现定时器（不推荐）
+    // setInterval(() => {
+    //   vm.opacity -= 0.01;
+    //   if (vm.opacity <= 0) {
+    //     vm.opacity = 1;
+    //   }
+    // }, 16);
+  </script>
+</html>

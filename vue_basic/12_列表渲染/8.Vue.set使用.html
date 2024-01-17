@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue.set使用</title>
+    <!-- 引入Vue -->
+    <script type="text/javascript" src="../js/vue.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <h1>学校信息</h1>
+      <h2>学校名称：{{school.name}}</h2>
+      <h2>学校地址：{{school.address}}</h2>
+      <br />
+      <hr />
+
+      <h1>学生信息</h1>
+      <button @click="appendSex('男')">点击，给学生追加性别</button>
+      <h2>学生姓名：{{student.name}}</h2>
+      <h2 v-if="student.sex">学生性别：{{student.sex}}</h2>
+      <h2>
+        学生年龄：真实《{{student.age.rAge}}》对外《{{student.age.sAge}}》
+      </h2>
+      <br />
+
+      <h2>学生爱好：</h2>
+      <u>
+        <li v-for="h in student.hobby">{{h}}</li>
+      </u>
+      <br />
+
+      <h2>学生的朋友</h2>
+      <ul>
+        <li v-for="(friend, index) in student.friends" :key="index">
+          {{friend.name}}=={{friend.age}}
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script type="text/javascript">
+    const vm = new Vue({
+      el: "#root",
+      data: {
+        school: {
+          name: "尚硅谷",
+          address: "北京",
+        },
+        student: {
+          name: "tom",
+          age: {
+            rAge: 40,
+            sAge: 29,
+          },
+          hobby: ["吃饭", "睡觉", "打豆豆"],
+          friends: [
+            { name: "jack", age: 35 },
+            { name: "mary", age: 43 },
+          ],
+        },
+      },
+      methods: {
+        appendSex(type) {
+          this.$set(this.student, "sex", type);
+        },
+      },
+    });
+  </script>
+</html>

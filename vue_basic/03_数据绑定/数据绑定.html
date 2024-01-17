@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>数据绑定</title>
+    <!-- 引入Vue -->
+    <script type="text/javascript" src="../js/vue.js"></script>
+  </head>
+  <body>
+    <!-- 容器 -->
+    <div id="root">
+        <!-- 
+            v-model: 只能应用在表单类元素（输入类元素）上，默认绑定在value属性上
+            所以，v-model:value="msg" 可以简写为 v-model="msg"
+         -->
+        单向数据绑定：<input type="text" :value="msg">
+        <br>
+        双向数据绑定：<input type="text" v-model:value="msg">
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    new Vue({
+        el: "#root",
+        data: {
+            msg: "hello, world"
+        }
+    })
+  </script>
+</html>

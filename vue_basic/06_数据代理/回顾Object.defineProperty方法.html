@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = 18;
+        const person = {
+            name: "jack",
+            sex: "男"
+        }
+
+        // defineProperty默认不可被枚举(不可被遍历)
+        Object.defineProperty(person, "age", {
+            // value: 18,
+            // enumerable: true, // 设置可被枚举
+            // writable: true, // 设置可被修改
+            // configurable: true // 设置可被删除
+            get() {
+                console.log("有人读取了我的属性");
+                return number;
+            },
+
+            set(value) {
+                console.log("有人修改了我的属性, 值为", value);
+                number = value;
+            }
+        })
+
+        console.log(person);
+    </script>
+</body>
+</html>

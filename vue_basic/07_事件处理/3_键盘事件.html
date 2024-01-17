@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue的模板语法</title>
+    <!-- 引入Vue -->
+    <script type="text/javascript" src="../js/vue.js"></script>
+  </head>
+  <body>
+    <!-- 容器 -->
+    <div id="root">
+      <input
+        type="text"
+        placeholder="按下回车提示输入"
+        @keyup.enter="showInfo"
+      />
+      <br />
+      <input
+        type="text"
+        placeholder="按下CapsLock提示输入"
+        @keyup.caps-lock="showInfo"
+      />
+      <br />
+      <input
+        type="text"
+        placeholder="按下aikun键提示输入"
+        @keyup.aikun="showInfo"
+      />
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    Vue.config.keyCodes.aikun = 13;
+
+    new Vue({
+      el: "#root",
+      data: {},
+      methods: {
+        showInfo(e) {
+          console.log(e.target.value);
+        },
+      },
+    });
+  </script>
+</html>
