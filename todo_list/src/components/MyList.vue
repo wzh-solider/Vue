@@ -3,15 +3,23 @@
 
   export default {
     name: "MyList",
-    components: {MyItem}
+    components: {MyItem},
+    // data() {
+    //   return {
+    //     todos: [
+    //       {id: '001', title: "吃饭", completed: true},
+    //       {id: '002', title: "睡觉", completed: false},
+    //       {id: '003', title: "打豆豆", completed: true}
+    //     ]
+    //   }
+    // }
+    props: ['todos']
   }
 </script>
 
 <template>
   <ul class="todo-main">
-    <MyItem/>
-    <MyItem/>
-    <MyItem/>
+    <MyItem v-for="todo in todos" :key="todo.id" :todo="todo"/>
   </ul>
 </template>
 

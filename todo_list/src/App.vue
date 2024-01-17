@@ -9,6 +9,22 @@
       MyHeader,
       MyList,
       MyFooter
+    },
+    data() {
+      return {
+        todos: [
+          {id: '001', title: "吃饭", completed: true},
+          {id: '002', title: "睡觉", completed: false},
+          {id: '003', title: "打豆豆", completed: true}
+        ]
+      }
+    },
+    methods: {
+      addTodo(todo) {
+        // console.log('我是App，我需要接收MyHeader组件的数据', data);
+        this.todos.unshift(todo)
+        // console.log(this.todos)
+      }
     }
   }
 </script>
@@ -17,8 +33,8 @@
   <div id="root">
     <div class="todo-container">
       <div class="todo-wrap">
-        <MyHeader/>
-        <MyList/>
+        <MyHeader :addTodo="addTodo"/>
+        <MyList :todos="todos"/>
         <MyFooter/>
       </div>
     </div>

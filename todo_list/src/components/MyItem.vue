@@ -1,14 +1,20 @@
 <script>
   export default {
-    name: "MyItem"
+    name: "MyItem",
+    props: {
+      todo: {
+        type: Object,
+        required: false
+      }
+    }
   }
 </script>
 
 <template>
   <li>
     <label>
-      <input type="checkbox"/>
-      <span>xxxxx</span>
+      <input type="checkbox" :checked="todo.completed"/>
+      <span>{{todo.title}}</span>
     </label>
     <button class="btn btn-danger" style="display:none">删除</button>
   </li>
