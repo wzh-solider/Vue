@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cca4efae-7828-4d05-9e18-489f00ce5019" name="Changes" comment="init" />
+    <list default="true" id="cca4efae-7828-4d05-9e18-489f00ce5019" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/vue_test/22_插槽/02_具名插槽/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/22_插槽/02_具名插槽/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/22_插槽/03_src_作用域插槽/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/22_插槽/03_src_作用域插槽/components/Category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/22_插槽/03_src_作用域插槽/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/23_src_求和案例_纯vue版/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/23_src_求和案例_纯vue版/components/Count.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/23_src_求和案例_纯vue版/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Count.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_test/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/output.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/22_插槽/02_具名插槽/components/Category.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_test/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +34,7 @@
         <option value="HTML File" />
         <option value="Vue Composition API Component" />
         <option value="Vue Options API Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -63,7 +82,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/home/coding/repos/Vue/vue_test/src",
+    "last_opened_file_path": "D:/home/coding/repos/Vue/vue_test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,11 +104,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\home\coding\repos\Vue\vue_test\src" />
       <recent name="D:\home\coding\repos\Vue\vue_test" />
+      <recent name="D:\home\coding\repos\Vue\vue_test\22_插槽" />
+      <recent name="D:\home\coding\repos\Vue\vue_test\src" />
       <recent name="D:\home\coding\repos\Vue\vue_test\public\css" />
       <recent name="D:\home\coding\repos\Vue\vue_test\src\assets" />
-      <recent name="D:\home\coding\repos\Vue\vue_test\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\home\coding\repos\Vue\vue_test\22_插槽\01_src_默认插槽" />
@@ -132,7 +151,7 @@
       <workItem from="1706429492985" duration="247000" />
       <workItem from="1706442187885" duration="5675000" />
       <workItem from="1706537980346" duration="6870000" />
-      <workItem from="1706600407749" duration="4283000" />
+      <workItem from="1706600407749" duration="14113000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -166,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706604080878</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init">
+      <option name="closed" value="true" />
+      <created>1706605180964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706605180964</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

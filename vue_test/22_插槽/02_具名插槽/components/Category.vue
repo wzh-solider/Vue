@@ -9,7 +9,8 @@
   <div class="category">
     <h3>{{ title }}分类</h3>
     <!-- 设置插槽 -->
-    <slot></slot>
+    <slot name="center">我是一些默认值，默认插槽1</slot>
+    <slot name="footer">我是一些默认值，默认插槽2</slot>
   </div>
 </template>
 
@@ -23,6 +24,10 @@
   .category h3 {
     text-align: center;
     background-color: orange;
+  }
+
+  h4 {
+    text-align: center;
   }
 
   img {
