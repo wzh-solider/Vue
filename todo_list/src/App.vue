@@ -9,43 +9,6 @@
       MyHeader,
       MyList,
       MyFooter
-    },
-    data() {
-      return {
-        todos: JSON.parse(localStorage.getItem('todos_key')) || []
-      }
-    },
-    methods: {
-      addTodo(todo) {
-        // console.log('我是App，我需要接收MyHeader组件的数据', data);
-        this.todos.unshift(todo);
-        // console.log(this.todos)
-      },
-      checkTodo(id) {
-        const todo = this.todos.find(todo => todo.id === id);
-        todo != null ?
-            todo.completed = !todo.completed :
-            alert('找不到id为' + id + '的todo');
-      },
-      delTodo(id) {
-        // 删除指定id的todo对象
-        this.todos = this.todos.filter(todo => todo.id !== id);
-      },
-      // 全选或全不选
-      checkAllTodos(completed) {
-        this.todos.forEach(todo => todo.completed = completed);
-      },
-      clearAllTodos() {
-        this.todos = this.todos.filter(todo => !todo.completed)
-      }
-    },
-    watch: {
-      todos: {
-        deep: true,
-        handler() {
-          localStorage.setItem('todos_key', JSON.stringify(this.todos));
-        }
-      }
     }
   }
 </script>
@@ -54,16 +17,9 @@
   <div id="root">
     <div class="todo-container">
       <div class="todo-wrap">
-        <MyHeader :addTodo="addTodo"/>
-        <MyList :todos="todos"
-                :checkTodo="checkTodo"
-                :delTodo="delTodo"
-        />
-        <MyFooter
-            :todos="todos"
-            :checkAllTodos="checkAllTodos"
-            :clearAllTodos="clearAllTodos"
-        />
+        <MyHeader/>
+        <MyList/>
+        <MyFooter/>
       </div>
     </div>
   </div>
