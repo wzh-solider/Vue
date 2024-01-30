@@ -17,8 +17,8 @@ import org.springframework.stereotype.Component;
 public class ServiceRunSuccessListener implements ApplicationListener<AvailabilityChangeEvent> {
     @Override
     public void onApplicationEvent(AvailabilityChangeEvent event) {
-        if (ReadinessState.ACCEPTING_TRAFFIC == event.getState()){
-            log.info("===> 服务器1启动成功了,请求学生信息地址为：http://localhost:5000/students");
-        }
+        // if (ReadinessState.ACCEPTING_TRAFFIC == event.getState()){
+        //     log.info("===> 服务器1启动成功了,请求学生信息地址为：http://localhost:5000/students");
+        // }
     }
 }
