@@ -4,146 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cca4efae-7828-4d05-9e18-489f00ce5019" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/src/main/java/com/solider/serve_01/Serve01Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/src/main/java/com/solider/serve_01/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/src/main/java/com/solider/serve_01/listener/ServiceRunSuccessListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/src/main/java/com/solider/serve_01/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/src/test/java/com/solider/serve_01/Serve01ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/src/main/java/com/solider/serve_02/Serve02Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/src/main/java/com/solider/serve_02/controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/src/main/java/com/solider/serve_02/listener/ServiceRunSuccessListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/src/main/java/com/solider/serve_02/pojo/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_02/src/test/java/com/solider/serve_02/Serve02ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serves.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/08_浏览器本地存储/localStorage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/08_浏览器本地存储/sessionStorage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/src/components/MyFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/src/components/MyHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/src/components/MyItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/src/components/MyList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/09_src_TodoList_本地存储/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/10_src_自定义事件/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/10_src_自定义事件/components/School.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/10_src_自定义事件/components/Student.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/10_src_自定义事件/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/11_src_TodoList_自定义事件/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/11_src_TodoList_自定义事件/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/11_src_TodoList_自定义事件/components/MyFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/11_src_TodoList_自定义事件/components/MyHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/11_src_TodoList_自定义事件/components/MyItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/11_src_TodoList_自定义事件/components/MyList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/11_src_TodoList_自定义事件/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/12_src_全局事件总线/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/12_src_全局事件总线/components/School.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/12_src_全局事件总线/components/Student.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/12_src_全局事件总线/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13_src_TodoList_事件总线/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13_src_TodoList_事件总线/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13_src_TodoList_事件总线/components/MyFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13_src_TodoList_事件总线/components/MyHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13_src_TodoList_事件总线/components/MyItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13_src_TodoList_事件总线/components/MyList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/13_src_TodoList_事件总线/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/14_src_消息的订阅与发布/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/14_src_消息的订阅与发布/components/School.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/14_src_消息的订阅与发布/components/Student.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/14_src_消息的订阅与发布/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/15_src_TodoList_消息订阅与发布/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/15_src_TodoList_消息订阅与发布/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/15_src_TodoList_消息订阅与发布/components/MyFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/15_src_TodoList_消息订阅与发布/components/MyHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/15_src_TodoList_消息订阅与发布/components/MyItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/15_src_TodoList_消息订阅与发布/components/MyList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/15_src_TodoList_消息订阅与发布/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/16_src_nextTick/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/16_src_nextTick/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/16_src_nextTick/components/MyFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/16_src_nextTick/components/MyHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/16_src_nextTick/components/MyItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/16_src_nextTick/components/MyList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/16_src_nextTick/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/17_src_过渡与动画/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/17_src_过渡与动画/components/Test.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/17_src_过渡与动画/components/Test2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/17_src_过渡与动画/components/Test3.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/17_src_过渡与动画/components/Test4.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/17_src_过渡与动画/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/18_src_TodoList_动画/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/18_src_TodoList_动画/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/18_src_TodoList_动画/components/MyFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/18_src_TodoList_动画/components/MyHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/18_src_TodoList_动画/components/MyItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/18_src_TodoList_动画/components/MyList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/18_src_TodoList_动画/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/19_src_配置代理服务器/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/19_src_配置代理服务器/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/20_src_github搜索案例/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/20_src_github搜索案例/components/List.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/20_src_github搜索案例/components/Search.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/20_src_github搜索案例/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/public/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Category.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Vue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Vue.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_list/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_list/src/components/MyFooter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list/src/components/MyFooter.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_list/src/components/MyItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list/src/components/MyItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_list/src/components/MyList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list/src/components/MyList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_basic/19_单文件组件/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_basic/19_单文件组件/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/output.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/output.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Footer.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Header.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Item.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/components/List.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/vue.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="cca4efae-7828-4d05-9e18-489f00ce5019" name="Changes" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +63,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/home/coding/repos/Vue/vue_test",
+    "last_opened_file_path": "D:/home/coding/repos/Vue/vue_test/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -224,13 +85,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\home\coding\repos\Vue\vue_test\src" />
       <recent name="D:\home\coding\repos\Vue\vue_test" />
       <recent name="D:\home\coding\repos\Vue\vue_test\public\css" />
       <recent name="D:\home\coding\repos\Vue\vue_test\src\assets" />
-      <recent name="D:\home\coding\repos\Vue\vue_test\src" />
       <recent name="D:\home\coding\repos\Vue\vue_test\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\home\coding\repos\Vue\vue_test\22_插槽\01_src_默认插槽" />
       <recent name="D:\home\coding\repos\Vue\vue_test\src\assets\css" />
       <recent name="D:\home\coding\repos\Vue\vue_basic\19_单文件组件" />
     </key>
@@ -270,7 +132,7 @@
       <workItem from="1706429492985" duration="247000" />
       <workItem from="1706442187885" duration="5675000" />
       <workItem from="1706537980346" duration="6870000" />
-      <workItem from="1706600407749" duration="2655000" />
+      <workItem from="1706600407749" duration="3511000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -288,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705504922418</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1706603924075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706603924075</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
