@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cca4efae-7828-4d05-9e18-489f00ce5019" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/src/main/java/com/solider/serve_01/controller/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serves/serve_01/src/main/java/com/solider/serve_01/pojo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/24_src_vuex求和案例_getters_mapState_mapGetters/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/24_src_vuex求和案例_getters_mapState_mapGetters/components/Count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/24_src_vuex求和案例_getters_mapState_mapGetters/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/25&amp;26_src_vuex_map辅助函数/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/25&amp;26_src_vuex_map辅助函数/components/Count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/25&amp;26_src_vuex_map辅助函数/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/25&amp;26_src_vuex_map辅助函数/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/27_src_多组件共享数据/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/27_src_多组件共享数据/components/Count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/27_src_多组件共享数据/components/Person.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/27_src_多组件共享数据/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/27_src_多组件共享数据/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/28_src_vuex的模块化/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/28_src_vuex的模块化/components/Count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/28_src_vuex的模块化/components/Person.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/28_src_vuex的模块化/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/28_src_vuex的模块化/store/count.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/28_src_vuex的模块化/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/28_src_vuex的模块化/store/person.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/src/components/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/src/components/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue_test/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serves/serve_01/src/main/java/com/solider/serve_01/listener/ServiceRunSuccessListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/serves/serve_01/src/main/java/com/solider/serve_01/listener/ServiceRunSuccessListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/components/Count.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/24_src_vuex求和案例_getters_mapState_mapGetters/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_test/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_test/vue.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="cca4efae-7828-4d05-9e18-489f00ce5019" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,37 +53,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.localStorage.html.executor": "Run",
-    "JavaScript Debug.sessionStorage.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/home/coding/repos/Vue/vue_test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.xxxtai.smartinput",
-    "ts.external.directory.path": "D:\\usr\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.localStorage.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.sessionStorage.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/home/coding/repos/Vue/vue_test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.xxxtai.smartinput&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\usr\\WebStorm 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "vue.recent.templates": [
-      "Vue Composition API Component",
-      "Vue Options API Component"
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;,
+      &quot;Vue Options API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\home\coding\repos\Vue\vue_test" />
@@ -174,7 +139,7 @@
       <workItem from="1707038191121" duration="4139000" />
       <workItem from="1707471778552" duration="16000" />
       <workItem from="1708063883907" duration="4913000" />
-      <workItem from="1708068852446" duration="6144000" />
+      <workItem from="1708068852446" duration="6470000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -224,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706628135173</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <option name="closed" value="true" />
+      <created>1708076360687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708076360687</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +218,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;todo_list/src/App.vue&#10;#&#9;todo_list/src/components/MyItem.vue&#10;#&#9;todo_list/src/components/MyList.vue&#10;#&#9;vue_basic/19_单文件组件/index.html" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
