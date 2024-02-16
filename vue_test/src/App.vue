@@ -1,40 +1,37 @@
 <script>
-  import Category from "./components/Category.vue";
-
   export default {
     name: "App",
     components: {
-      Category
-    },
-    data() {
-      return {
-        foods: ['火锅', '烧烤', '小龙虾', '牛排'],
-        games: ['红色警戒', '穿越火线', '劲舞团', '超级玛丽'],
-        films: ['《教父》', '《拆弹专家》', '《你好，李焕英》', '《尚硅谷》']
-      }
     }
   }
 </script>
 
 <template>
-  <div class="container">
-    <Category title="美食">
-      <img src="https://s3.ax1x.com/2021/01/16/srJlq0.jpg" alt="美食">
-    </Category>
-    <Category title="游戏">
-      <ul>
-        <li v-for="(g, index) in games" :key="index">{{ g }}</li>
-      </ul>
-    </Category>
-    <Category title="电影">
-      <video controls src="http://vjs.zencdn.net/v/oceans.mp4" alt="电影"></video>
-    </Category>
+  <div>
+    <div class="row">
+      <div class="col-xs-offset-2 col-xs-8">
+        <div class="page-header"><h2>Vue Router Demo</h2></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-2 col-xs-offset-2">
+        <div class="list-group">
+          <!-- vue通过router-link实现路由跳转 -->
+          <router-link class="list-group-item" active-class="active" to="/about">About</router-link>
+          <router-link class="list-group-item" active-class="active" to="/home">Home</router-link>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="panel">
+          <div class="panel-body">
+            <!-- 使用router-view指定跳转路由后对应组件显示的位置 -->
+            <router-view></router-view>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <style>
-  .container {
-    display: flex;
-    justify-content: space-around;
-  }
 </style>
